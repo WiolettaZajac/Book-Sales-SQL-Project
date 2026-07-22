@@ -18,11 +18,64 @@ The dataset contains information about Amazon's bestselling books, including:
 - Year of publication
 - Genre
 
+## Table Creation
+
+The following SQL statement was used to create the `book_sales` table.
+
+```sql
+CREATE TABLE book_sales (
+    Name VARCHAR(255),
+    Author VARCHAR(150),
+    User_Rating DECIMAL(3,2),
+    Reviews INT,
+    Price INT,
+    Year INT,
+    Genre VARCHAR(50)
+);
+```
+
 ## Database Schema
 
 The project uses a single table called `book_sales`. The table stores information about Amazon bestselling books, including the book title, author, user rating, number of reviews, price, year and genre.
 
 ![Database Schema](Screenshots/schema.png)
+
+## Example SQL Query
+
+The following query finds the top 10 authors with the most bestselling books.
+
+```sql
+SELECT Author,
+       COUNT(*) AS Books
+FROM book_sales
+GROUP BY Author
+ORDER BY Books DESC
+LIMIT 10;
+```
+
+## Example SQL Query
+
+The following query calculates the average price of books by genre.
+
+```sql
+SELECT Genre,
+       ROUND(AVG(Price),2) AS Average_Price
+FROM book_sales
+GROUP BY Genre;
+```
+
+## Example SQL Query
+
+The following query returns the 10 most reviewed books.
+
+```sql
+SELECT Name,
+       Reviews
+FROM book_sales
+ORDER BY Reviews DESC
+LIMIT 10;
+```
+
 
 
 ## SQL Skills Used
@@ -54,17 +107,6 @@ Some of the questions I answered include:
 
 This project gave me practical experience with SQL and helped me understand how to retrieve, filter, sort and summarise data. 
 It also improved my confidence in using aggregate functions and writing queries to answer business-style questions.
-
-## Sample Results
-
-Below are some examples of the analysis carried out in this project.
-
-- Top 10 authors with the most bestselling books
-- Most reviewed books
-- Highest-rated books
-- Average price by genre
-
-See the `Screenshots` folder for the query results.
 
 
 ## Conclusion
