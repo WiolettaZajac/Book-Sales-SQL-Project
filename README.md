@@ -52,6 +52,19 @@ Some of the questions I answered include:
 
 This project gave me practical experience with SQL and helped me understand how to retrieve, filter, sort and summarise data. 
 It also improved my confidence in using aggregate functions and writing queries to answer business-style questions.
+
+## Sample Results
+
+Below are some examples of the analysis carried out in this project.
+
+- Top 10 authors with the most bestselling books
+- Most reviewed books
+- Highest-rated books
+- Average price by genre
+
+See the `Screenshots` folder for the query results.
+
+
 ## Conclusion
 
 This was my first SQL project and a good introduction to analysing data with SQL. It strengthened my understanding of the basics and prepared me for working on more advanced SQL projects in the future.
