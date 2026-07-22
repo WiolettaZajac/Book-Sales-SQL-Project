@@ -112,3 +112,10 @@ It also improved my confidence in using aggregate functions and writing queries 
 ## Conclusion
 
 This was my first SQL project and a good introduction to analysing data with SQL. It strengthened my understanding of the basics and prepared me for working on more advanced SQL projects in the future.
+
+
+## Source
+
+Dataset: Amazon Top 50 Bestselling Books 2009–2019
+
+Available from: https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019
