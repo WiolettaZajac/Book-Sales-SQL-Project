@@ -20,7 +20,7 @@ The dataset contains information about Amazon's bestselling books, including:
 
 ## Table Creation
 
-The following SQL statement was used to create the `book_sales` table.
+I used following SQL statement to create the `book_sales` table.
 
 ```sql
 CREATE TABLE book_sales (
@@ -36,7 +36,7 @@ CREATE TABLE book_sales (
 
 ## Database Schema
 
-The project uses a single table called `book_sales`. The table stores information about Amazon bestselling books, including the book title, author, user rating, number of reviews, price, year and genre.
+This simple project uses a single table called `book_sales`. The table stores information about Amazon bestselling books, including the book title, author, user rating, number of reviews, price, year and genre.
 
 ![Database Schema](Screenshots/schema.png)
 
