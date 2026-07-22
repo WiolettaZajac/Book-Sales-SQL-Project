@@ -18,10 +18,12 @@ The dataset contains information about Amazon's bestselling books, including:
 - Year of publication
 - Genre
 
-## Tools Used
+## Database Schema
 
-- MySQL Workbench
-- SQL
+The project uses a single table called `book_sales`. The table stores information about Amazon bestselling books, including the book title, author, user rating, number of reviews, price, year and genre.
+
+![Database Schema](Screenshots/schema.png)
+
 
 ## SQL Skills Used
 
