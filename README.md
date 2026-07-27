@@ -38,7 +38,7 @@ CREATE TABLE book_sales (
 
 This simple project uses a single table called `book_sales`. The table stores information about Amazon bestselling books, including the book title, author, user rating, number of reviews, price, year and genre.
 
-![Database Schema](Screenshots/schema.png)
+! [Database Schema](Screenshots/schema.png)
 
 ## Example SQL Query
 
